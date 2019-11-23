@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal" android:layout_width="match_parent"
+        android:background="@drawable/toplabelborder"
+        android:padding="5dp"
+        android:layout_height="wrap_content">
+
+    <TextView
+            android:id="@+id/item_text_view"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:textColor="#000"
+            android:padding="10dp"
+            android:text="itemName"
+            android:textSize="15sp" />
+
+    <TextView
+            android:layout_gravity="right"
+            android:id="@+id/item_price_view"
+            android:layout_width="wrap_content"
+            android:textColor="#23c35a"
+            android:layout_height="match_parent"
+            android:gravity="left"
+            android:text="price"
+            android:padding="10dp"
+            android:textSize="15sp" />
+</LinearLayout>

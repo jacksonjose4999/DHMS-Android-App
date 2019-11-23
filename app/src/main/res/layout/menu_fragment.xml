@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        android:screenOrientation="portrait"
+        android:orientation="vertical">
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+    <TextView
+            android:id="@+id/menu_label"
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+
+            android:background="#E6E6E6"
+            android:gravity="center"
+            android:text="Menu"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+    <TextView
+            android:id="@+id/breakfast_label"
+            android:layout_width="match_parent"
+            android:text="Breakfast         (7am to 10am)"
+            android:background="@drawable/menu_label_timings"
+            android:textColor="#747373"
+            android:textSize="17sp"
+            android:textStyle="normal"
+            android:paddingTop="30dp"
+            android:paddingBottom="7dp"
+
+
+            android:paddingLeft="10sp"
+            android:layout_height="wrap_content" />
+
+    <TextView
+            android:id="@+id/breakfast_item_1"
+            android:layout_width="match_parent"
+            android:layout_height="31dp"
+            android:background="@drawable/top_border"
+            android:textColor="#000"
+
+            android:paddingLeft="10sp"
+            android:text="TextView" />
+
+    <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:textColor="#000"
+
+            android:layout_height="34dp"
+            android:background="@drawable/top_border"
+            android:paddingLeft="10sp"
+            android:text="Continental" />
+
+    <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:gravity="bottom|left"
+            android:paddingBottom="7dp"
+
+            android:background="@drawable/menu_label_timings"
+            android:paddingLeft="10sp"
+            android:text="Lunch               (12PM to 3PM)"
+            android:textColor="#747373"
+            android:textSize="17sp"            android:textStyle="normal" />
+
+    <TextView
+            android:id="@+id/veg"
+            android:layout_width="match_parent"
+android:textColor="#000"
+            android:layout_height="wrap_content"
+
+            android:paddingLeft="10sp"
+            android:text="Veg Lunch" />
+
+    <TextView
+            android:id="@+id/veg_lunch_description"
+            android:layout_width="match_parent"
+            android:layout_height="39dp"
+            android:background="@drawable/top_border"
+
+            android:paddingLeft="10dp"
+            android:text="TextView" />
+
+    <TextView
+            android:id="@+id/nonveg_lunch_text"
+            android:layout_width="match_parent"
+            android:textColor="#000"
+
+            android:layout_height="wrap_content"
+
+            android:paddingLeft="10sp"
+            android:text="Non Veg Lunch" />
+
+    <TextView
+            android:id="@+id/non_veg_lunch_description"
+            android:layout_width="match_parent"
+            android:layout_height="39dp"
+            android:background="@drawable/top_border"
+            android:paddingLeft="10dp"
+            android:text="TextView" />
+
+    <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:gravity="bottom|left"
+            android:paddingBottom="7dp"
+
+            android:paddingLeft="10sp"
+            android:background="@drawable/menu_label_timings"
+            android:text="Dinner              (7PM to 10PM)"
+            android:textColor="#747373"
+            android:textSize="17sp"            android:textStyle="normal" />
+
+    <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:textColor="#000"
+
+
+            android:layout_height="wrap_content"
+            android:paddingLeft="10sp"
+            android:text="Veg Dinner" />
+
+    <TextView
+            android:id="@+id/veg_dinner_description"
+            android:layout_width="match_parent"
+            android:layout_height="39dp"
+            android:background="@drawable/top_border"
+            android:paddingLeft="10dp"
+            android:text="TextView" />
+
+    <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+
+            android:paddingLeft="10sp"
+            android:text="Non Veg Dinner" />
+
+    <TextView
+            android:id="@+id/non_veg_dinner_description"
+            android:layout_width="match_parent"
+            android:layout_height="39dp"
+            android:background="@drawable/top_border"
+
+            android:paddingLeft="10dp"
+            android:text="TextView" />
+
+    <TextView
+            android:id="@+id/textView12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+
+            android:paddingLeft="10sp"
+            android:text="Special" />
+
+    <TextView
+            android:id="@+id/special_description"
+            android:layout_width="match_parent"
+            android:layout_height="39dp"
+            android:background="@drawable/top_border"
+
+            android:paddingLeft="10dp"
+            android:text="TextView" />
+</LinearLayout>
+</ScrollView>

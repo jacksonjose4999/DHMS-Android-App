@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal" android:layout_width="match_parent"
+        android:padding = "10dp"
+        android:background="@drawable/toplabelborder"
+        android:layout_height="wrap_content">
+
+    <TextView
+            android:id="@+id/dish_name_cart"
+            android:layout_width="219dp"
+
+
+            android:layout_height="47dp"
+            android:paddingBottom="7dp"
+            android:text="2 x Kadhai Paneer"
+
+
+            android:textColor="#747373"
+            android:textSize="15sp"
+
+            android:textStyle="normal" />
+
+    <TextView
+            android:id="@+id/cost_cart"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:maxLines="1"
+            android:text="Rs.120"
+            android:textAlignment="textEnd"
+            android:textColor="#23c35a"
+            android:textSize="15sp"
+            android:textStyle="normal" />
+</LinearLayout>

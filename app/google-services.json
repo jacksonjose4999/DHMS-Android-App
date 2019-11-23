@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "441783445074",
+    "firebase_url": "https://dhms-29cf6.firebaseio.com",
+    "project_id": "dhms-29cf6",
+    "storage_bucket": "dhms-29cf6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:441783445074:android:b80d882f5ea26ac3",
+        "android_client_info": {
+          "package_name": "com.example.cmms"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "441783445074-cq5v758o60n508ih16kl0hscraffr683.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1Pdr0WPl9AQShP6wMSK4MF77mw4cZwpo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "441783445074-cq5v758o60n508ih16kl0hscraffr683.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "441783445074-l6pd0d4vu0md6d6e0ea8l3eejguv14ff.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "DiningHall.DHMS"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

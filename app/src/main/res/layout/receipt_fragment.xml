@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:screenOrientation="portrait"
+        android:layout_height="fill_parent">
+
+<LinearLayout
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFF">
+    <TextView
+            android:id="@+id/receipt_label"
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:background="@drawable/border_text_view"
+
+            android:gravity="center"
+            android:text="Receipt"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+    <TextView
+            android:layout_width="match_parent"
+            android:background="@drawable/menu_label_timings"
+            android:textColor="#747373"
+            android:textStyle="normal"
+            android:paddingTop="30dp"
+            android:paddingBottom="7dp"
+            android:textSize="17sp"
+            android:paddingLeft="15dp"
+            android:layout_height="wrap_content"
+            android:text="Ala-Carte Receipts"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:id="@+id/recycler_view_alacarte_receipt"
+            android:layout_height="wrap_content" />
+
+    <TextView
+            android:layout_width="match_parent"
+            android:background="@drawable/menu_label_timings"
+            android:textColor="#747373"
+            android:textStyle="normal"
+            android:paddingTop="30dp"
+            android:paddingBottom="7dp"
+            android:textSize="17sp"
+            android:paddingLeft="15dp"
+            android:layout_height="wrap_content"
+            android:text="Buffet Receipts"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:id="@+id/recycler_view_buffet_receipt"
+            android:layout_height="wrap_content" />
+    <TextView
+            android:layout_width="match_parent"
+            android:background="@drawable/menu_label_timings"
+            android:textColor="#747373"
+            android:textStyle="normal"
+            android:paddingTop="30dp"
+            android:paddingBottom="7dp"
+            android:textSize="17sp"
+            android:paddingLeft="15dp"
+            android:layout_height="wrap_content"
+            android:text="Roll Maal Receipts"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:id="@+id/recycler_view_roll_maal_receipt"
+            android:layout_height="wrap_content" />
+    <TextView
+            android:layout_width="match_parent"
+            android:background="@drawable/menu_label_timings"
+            android:textColor="#747373"
+            android:textStyle="normal"
+            android:paddingTop="30dp"
+            android:paddingBottom="7dp"
+            android:textSize="17sp"
+            android:paddingLeft="15dp"
+            android:layout_height="wrap_content"
+            android:text="Bakery Receipts"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:id="@+id/recycler_view_bakery_receipt"
+            android:layout_height="wrap_content" />
+
+
+</LinearLayout>
+</ScrollView>

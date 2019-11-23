@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:screenOrientation="portrait"
+        android:layout_height="fill_parent"
+   >
+
+
+<LinearLayout
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+
+            android:background="@drawable/border_text_view"
+            android:gravity="center"
+            android:text="Cart"
+            android:textColor="#000"
+            android:textSize="20sp" />
+<LinearLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/menu_label_timings"
+        android:layout_height="wrap_content">
+    <TextView
+            android:id="@+id/items_label_cart"
+            android:layout_width="wrap_content"
+            android:paddingLeft="10dp"
+            android:textSize="16sp"
+
+            android:layout_height="wrap_content"
+            android:text="Items" />
+    <Button
+            android:layout_width="wrap_content"
+            android:id="@+id/empty_cart"
+            android:textAllCaps="false"
+            android:background="@android:color/transparent"
+            android:text="Empty Cart"
+            android:paddingRight="10dp"
+            android:layout_weight="1"
+            android:textAlignment="textEnd"
+            android:layout_height="wrap_content">
+    </Button>
+</LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view_cart_items"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    <LinearLayout
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:background="@drawable/menu_label_timings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Total Amount" />
+
+        <TextView
+                android:id="@+id/total_amount_cart"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Rs.500"
+                android:textAlignment="textEnd"
+                android:textColor="#2A7C30" />
+    </LinearLayout>
+
+    <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="47dp" />
+<LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/menu_label_timings"
+        android:layout_height="wrap_content">
+
+
+</LinearLayout>
+    <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="59dp" />
+
+    <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="bottom">
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/waring_lower_balance_message"
+            android:layout_width="match_parent"
+            android:textSize="10sp"
+            android:padding="3dp"
+            android:textColor="#000"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="" />
+
+        <Button
+            android:id="@+id/placeorder_cart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+            android:text="Place Order"
+            android:background="@drawable/add_to_cart_layout_border"
+            android:textAllCaps="false" />
+        <TextView
+                android:id="@+id/closing_balance_cart"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:paddingRight="20dp"
+
+                android:text="Closing Balance : Rs.54"
+                android:textAlignment="center"
+                android:textColor="#807F7F" />
+</LinearLayout>
+        </RelativeLayout>
+
+
+</LinearLayout>
+</ScrollView>
