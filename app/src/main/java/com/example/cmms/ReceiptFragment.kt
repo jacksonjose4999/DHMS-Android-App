@@ -129,6 +129,7 @@ open class ReceiptFragment : Fragment(){
             .get()
             .addOnSuccessListener { result->
                 for (document in result){
+
                     if (document.getString("stall").equals("Buffet")){
 
                         document.getLong("quantity")?.let { document.getString("name")?.let { it1 ->

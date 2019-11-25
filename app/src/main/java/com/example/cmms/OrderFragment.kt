@@ -55,7 +55,6 @@ open class OrderFragment : Fragment(){
             }
         }
 
-            //val currentTime = Calendar.getInstance().time
         var breakfastStart = LocalTime.parse("07:00")
         var breakfastEnd = LocalTime.parse("10:00")
         var lunchStart = LocalTime.parse("12:00")
@@ -67,7 +66,7 @@ open class OrderFragment : Fragment(){
         var midnightMessStart = LocalTime.parse("23:00")
         var midnightMessEnd = LocalTime.parse("23:59")
 
-
+        //val currentTime = Calendar.getInstance().time
         var localDateFormat = SimpleDateFormat("HH:mm:ss");
         //var time = localDateFormat.format(currentTime)
         //time = time.substring(0,5)

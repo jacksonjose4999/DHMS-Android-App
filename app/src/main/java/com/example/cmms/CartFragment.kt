@@ -20,8 +20,7 @@ import kotlinx.android.synthetic.main.cart_fragment.*
 import kotlinx.android.synthetic.main.menu_fragment.*
 import java.lang.Exception
 import android.view.Window.FEATURE_NO_TITLE
-
-
+import android.widget.Toast
 
 
 open class CartFragment : Fragment(){
@@ -96,6 +95,7 @@ open class CartFragment : Fragment(){
                     OrderFragment.cartitemsList[i].itemName.description, OrderFragment.cartitemsList[i].qty, OrderFragment.cartitemsList[i].itemName.stallName, "${MainActivity.netID}",
                      (OrderFragment.cartitemsList[i].itemName.price.toDouble()).toString()))
                 MainActivity.availableBalance = closingBalance
+                Toast.makeText(this.context,"Order Placed Successfully", Toast.LENGTH_LONG).show()
 
                 Log.wtf("addingitems", "$id sdfsd")
             }
@@ -105,6 +105,7 @@ open class CartFragment : Fragment(){
                 "roll number" to MainActivity.rollNoUser,
                 "balance" to closingBalance
             )
+
 
             var doc = db.collection("Users/").document(MainActivity.netID)
                 .set(docData)
