@@ -20,6 +20,7 @@ class StallNameItem(var name: String) : Item<ViewHolder>(){
 
 }
 
+
 class ItemName(var name: String,var description: String, var price: String, var isVeg: Boolean, var stallName: String) : Item<ViewHolder>(){
     override fun getLayout(): Int {
         return R.layout.item_names
@@ -63,6 +64,7 @@ class ReceiptItems(var quantity: Long, var name: String) : Item<ViewHolder>(){
     }
 
     override fun bind(viewHolder: ViewHolder, position: Int) {
-        viewHolder.itemView.item_and_quantity.text = quantity.toString()+" x "+name
+        viewHolder.itemView.item_and_quantity
+            .text = quantity.toString()+" x "+name
     }
 }
